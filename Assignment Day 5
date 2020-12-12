@@ -1,0 +1,18 @@
+Question 1
+1. Add a 10GB disk to the CentOS.
+2. Create 2 Partitions 4GB and 6GB of Space respectively.
+3. Format 4GB with xfs and 6GB with ext4 file system.
+4. Mount 4GB and 6GB in /data and /music directory respectively.
+5. Create one file of 1GB in each of the mount point created above.
+6. Verify the disk Consumption and disk space free in the mounted partitions.
+
+Increasing disk spaces on the Linux servers is daily routine work for every system administrators. So, in this article we are going to show you some simple steps that you can use to increase your disk spaces on Linux CentOS 7 without rebooting to your production server using Linux commands.
+
+We will cover multiple methods and possibilities to increase and add new disks to the Linux systems, so that you can follow the one that you feel comfortable while using according to your requirements.
+
+Check Disk Space
+Run the following command to check the current size of your disk space.
+
+# df -h
+# fdisk -l
+
