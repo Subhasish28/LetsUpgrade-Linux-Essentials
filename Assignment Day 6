@@ -1,0 +1,20 @@
+Question 1
+1. Use ps to search for the “systemd” process by name.
+2. Find out your terminal name.Using your terminal name, use ps to find all processes associated
+With your terminal.
+3. Check and note the process id of your shell(from the output of the above command).
+Also, note the parent process id of your shell.
+4. Start 3 instances of “sleep 123” as background processes.
+5. Check and note the process id’s of all sleep processes.
+6. Display only those three sleep processes in top. Then quit top.
+
+The kernel identifies each process using a process ID (PID), a every instance of process must have a unique PID from other processes which is assigned when the process is invoked, to avoid any execution errors.
+
+The /proc file system stores information about currently running processes on your system, it contains directories for each process.
+
+Use the ls command to list its contents, however, the list may be long, so employ a pipeline and the less utility to view the /proc contents in a more convenient way as below:
+
+From the screenshot above, the numbered directories store information files about the processes in execution, where each number corresponds to a PID.
+
+Below is the list of files for systemd process with PID 1:
+
