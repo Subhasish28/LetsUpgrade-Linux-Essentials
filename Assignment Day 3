@@ -1,1 +1,19 @@
+Question 1
+1. Create a blank file named "myfile"
+2. Open "myfile" in vi editor
+3. Write your name, address, email id, phone number and blood group in 5 different lines
+4. Build one single expression to see the line with your name and blood group in myfile
 
+Follow the steps :
+
+step-1 : Open the terminal by pressing CTRL-ALT-T
+
+step-2 : Go to the desired directory by using cd(Change Directory)command
+
+step-3 :To create an empty file for example a file named “1.txt” use touch command
+
+$ touch 1.txt
+
+step-4: The file named 1.txt is created to check the file status use “ls” command
+
+ls (List the files in the directory)
